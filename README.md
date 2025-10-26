@@ -2,11 +2,7 @@
 
 A React calendar component built with TypeScript and Tailwind CSS. This calendar supports both month and week views with full event management capabilities.
 
-##  Live Demo
 
-**Storybook**: [Deploy to your preferred hosting service](https://your-storybook-url.com)
-
-##  Getting Started
 
 ```bash
 # Clone and install
