@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-neutral-200;
+  }
+  
+  body {
+    @apply bg-neutral-50 text-neutral-900;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+  }
+}
+
+@layer components {
+  .calendar-cell {
+    @apply relative min-h-[100px] p-2 border border-neutral-200 hover:bg-neutral-50 focus:bg-primary-50 focus:ring-2 focus:ring-primary-500 focus:ring-offset-1;
+  }
+  
+  .calendar-cell.today {
+    @apply bg-primary-50 border-primary-200;
+  }
+  
+  .calendar-cell.other-month {
+    @apply text-neutral-400 bg-neutral-50;
+  }
+  
+  .event-chip {
+    @apply text-xs px-2 py-1 rounded-md text-white truncate cursor-pointer hover:opacity-80 transition-opacity;
+  }
+  
+  .time-slot {
+    @apply border-b border-neutral-200 h-8 flex items-center px-2 text-sm text-neutral-600;
+  }
+  
+  .time-slot.hour {
+    @apply font-medium text-neutral-800;
+  }
+}
