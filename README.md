@@ -2,11 +2,11 @@
 
 A React calendar component built with TypeScript and Tailwind CSS. This calendar supports both month and week views with full event management capabilities.
 
-## 🚀 Live Demo
+##  Live Demo
 
 **Storybook**: [Deploy to your preferred hosting service](https://your-storybook-url.com)
 
-## 📦 Getting Started
+##  Getting Started
 
 ```bash
 # Clone and install
@@ -53,7 +53,7 @@ calendar-component/
 └─ package.json
 ```
 
-## ✨ Features
+##  Features
 
 ### Month View
 - 42-cell grid (6×7) showing current and adjacent months
@@ -91,7 +91,7 @@ calendar-component/
 - Screen reader support
 - High contrast support
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - **Primary**: Blue spectrum (#0ea5e9 to #0c4a6e)
@@ -103,7 +103,7 @@ calendar-component/
 - **Spacing**: 4px base scale
 - **Radius**: 0.75rem for rounded corners
 
-## 📚 Storybook Stories
+##  Storybook Stories
 
 1. **Default** - Current month with sample events
 2. **Empty State** - Clean calendar without events
@@ -112,7 +112,7 @@ calendar-component/
 5. **Interactive Playground** - Full CRUD functionality
 6. **Keyboard Accessibility** - Navigation demo
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React 18** - Latest React with concurrent features
 - **TypeScript 5** - Strict type checking
@@ -128,7 +128,7 @@ calendar-component/
 - **Prettier** - Code formatting
 - **PostCSS** - CSS processing
 
-## 🎯 Usage
+##  Usage
 
 ### Basic Setup
 ```tsx
@@ -180,7 +180,7 @@ const events = [
 />
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Manual Testing
 - [ ] Month view renders 42-cell grid correctly
@@ -201,7 +201,7 @@ const events = [
 - [ ] Color contrast meets WCAG standards
 - [ ] Modal traps focus correctly
 
-## 🚀 Deployment
+##  Deployment
 
 ### Build Commands
 ```bash
@@ -224,7 +224,7 @@ npm run preview
 - **Chromatic**: Deploy Storybook for design system
 - **GitHub Pages**: Static hosting for documentation
 
-## 📝 Scripts
+##  Scripts
 
 ```json
 {
@@ -238,46 +238,3 @@ npm run preview
 }
 ```
 
-## 🤝 Contributing
-
-### Git Workflow
-- Use conventional commits: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`
-- Create feature branches from `main`
-- Submit pull requests with clear descriptions
-- Ensure all tests pass and linting is clean
-
-### Code Standards
-- TypeScript strict mode enabled
-- No `any` types allowed
-- Prefer interfaces over types
-- Use discriminated unions where appropriate
-- Follow React best practices and hooks rules
-
-## 📞 Contact
-
-**Developer**: Frontend Engineer
-**Email**: [your-email@example.com]
-**GitHub**: [your-github-username]
-
-## ⚠️ Known Limitations
-
-1. **Drag Performance**: Large numbers of events (>1000) may impact drag performance
-2. **Mobile Gestures**: Swipe navigation not yet implemented
-3. **Time Zones**: Currently uses local timezone only
-4. **Recurring Events**: Not supported in current version
-5. **Event Conflicts**: No automatic conflict resolution
-
-## 🎁 Future Enhancements
-
-- **Local Storage**: Optional persistence of events
-- **Export/Import**: JSON export/import functionality
-- **Dark Mode**: Theme switching capability
-- **Custom Colors**: User-defined event colors
-- **Event Templates**: Predefined event types
-- **Keyboard Shortcuts**: Power user shortcuts
-- **Event Search**: Filter events by title/category
-- **Print Support**: Calendar printing styles
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
