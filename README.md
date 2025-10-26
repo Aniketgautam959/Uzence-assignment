@@ -24,7 +24,7 @@ npm run storybook
 npm run build
 ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 calendar-component/
