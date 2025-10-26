@@ -180,28 +180,7 @@ const events = [
 />
 ```
 
-##  Testing
 
-### Manual Testing
-- [ ] Month view renders 42-cell grid correctly
-- [ ] Today is highlighted distinctly
-- [ ] Events show with "+N more" for overflow
-- [ ] Week view shows time slots 00:00-23:00
-- [ ] Events position correctly by time
-- [ ] Overlaps display side-by-side
-- [ ] Drag to create/move events works
-- [ ] Modal opens/closes with proper focus management
-- [ ] Keyboard navigation works end-to-end
-- [ ] Responsive design adapts to screen sizes
-
-### Accessibility Testing
-- [ ] Screen reader announces calendar structure
-- [ ] Keyboard navigation works without mouse
-- [ ] Focus indicators are visible
-- [ ] Color contrast meets WCAG standards
-- [ ] Modal traps focus correctly
-
-##  Deployment
 
 ### Build Commands
 ```bash
@@ -218,11 +197,7 @@ npm run build-storybook
 npm run preview
 ```
 
-### Deployment Options
-- **Vercel**: Connect GitHub repo for automatic deployments
-- **Netlify**: Drag and drop `dist` folder
-- **Chromatic**: Deploy Storybook for design system
-- **GitHub Pages**: Static hosting for documentation
+
 
 ##  Scripts
 
